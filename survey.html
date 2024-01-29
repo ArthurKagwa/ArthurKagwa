@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css">
+        <title>Survey Form</title>
+    </head>
+    <body>
+        <h1 id="title">SURVEY FORM</h1>
+        <p id="description">This form helps inprove User Experience.</p>
+        <div>
+            <form id="survey-form">
+                <fieldset>
+                    <label id="name-label" for="name">Enter name: 
+                        <input id="name" placeholder="Enter the name here" name="name" type="text"required ></label>
+                    <label id="email-label" for="email">Enter email:   
+                        <input placeholder="Enter the email here"required  type="email" name="email" id="email" ></label>
+                    <label id="number-label" for="number">Enter age:<input type="number" min="15" max="75" placeholder="18" name="number" id="number" ></label>
+            
+                    <label for="dropdown">Select your level 
+                        <select  id="dropdown" name="dropdown">
+                            <option value="">(select one)</option>
+                            <option value="beginner">Beginner</option>
+                            <option value="intermidiate">Intermidiate</option>
+                            <option value="pro">Pro</option>
+                        </select> 
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Select your gender </legend>
+                    <label for="gender">
+                        <input type="radio" name="gender" checked value="female"> Female
+                    </label>
+                    <label for="gender">
+                        <input type="radio" name="gender" value="male"> Male
+                    </label>
+                    <label for="gender">
+                        <input type="radio" name="gender" value="other"> Other
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <label for="comment">Additional Comments:
+                        <textarea placeholder="The user experience is...." id="comment" cols="30" rows="3" name="comment"></textarea>
+                    </label>
+                    <label for="term">
+                        <input type="checkbox" id="term" name="term" required> I have read the terms and conditions.
+                    </label>
+                    <label for="terms">
+                        <input type="checkbox" id="terms" name="terms" required> I agree to the terms and conditions.
+                    </label>
+                    <input class="submit" type="submit" id="submit"name="submit">
+                </fieldset> 
+            </form>
+        </div>
+    </body>
+    <footer>
+        <hr>
+         <p>****THANK YOU****</p>
+    </footer>
+</html>
