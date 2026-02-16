@@ -3,7 +3,7 @@
 👋 I'm a Software Engineering student at Makerere University.
 
 ## About Me
-
+[Asasira Arthur](asasira.me)
 - 💻 Passionate about all things data and building cool stuff with code.
 - 🌟 Participating in hackathons, workshops, and meetups to inspire the next wave of tech wizards.
 
